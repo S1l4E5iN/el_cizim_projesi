@@ -22,6 +22,35 @@ Bu proje, temel **MediaPipe Hands API** ve **OpenCV çizim fonksiyonlarının** 
 
 ---
 
+## Kullanım Kılavuzu
+
+ **İşaret Parmağı**  Çizim yapmak için kullanılır. Parmağını hareket ettirerek ekranda çizim yapabilirsin. 
+ **Başparmak + İşaret Parmağı yakınsa** Çizimi durdurur (sanki kalemi kaldırmışsın gibi davranır). 
+ **C**  Ekranı temizler (tüm çizimleri siler). 
+ **E**  Rengi siyah yapar — silgi gibi davranır. 
+ **B**  Rengi mavi yapar (çizim moduna geçer). 
+ **ESC**  Uygulamayı kapatır. 
+
+---
+
+## 🎮 Çalışma Prensibi
+
+1. **Kamera Açılır:** `OpenCV` ile görüntü alınır.  
+2. **El Tespiti:** `MediaPipe Hands` modülü, el ve parmak noktalarını algılar.  
+3. **Koordinatlar İzlenir:** İşaret parmağı ucunun (index finger tip) koordinatları belirlenir.  
+4. **Çizim:** Parmağın hareketine göre ekranda çizgi çizilir (`cv2.line`).  
+5. **Tuşlar:** Kullanıcı klavye üzerinden renk ve mod değiştirir.  
+
+---
+
+## 🖼️ Örnek Görseller
+
+Aşağıdaki görüntüler uygulamanın çalışma anından alınmıştır:
+
+![Çizim Modu](demo1.png)  
+![El Tespiti](demo2.png)
+
+
 ## Kullanılan Teknolojiler
   **Python 3.10**
   **OpenCV** 
