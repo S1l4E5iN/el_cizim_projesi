@@ -69,21 +69,3 @@ pip install mediapipe opencv-python numpy
 python cizim.py
 
 ---
-💡 Proje Özeti (Kısa Tanıtım)
-
-Bu proje, MediaPipe ve OpenCV kullanarak geliştirilen, el hareketleriyle etkileşimli çizim uygulamasıdır.
-Kullanıcı, kamera aracılığıyla el hareketlerini kullanarak ekranda çizim yapabilir, silgi moduna geçebilir veya renk değiştirebilir.
-Proje, bilgisayarla görü (Computer Vision) ve doğal kullanıcı etkileşimi (Natural User Interaction) konularında temel bir örnektir.
-
-
-🌍 Project Summary (English)
-
-This project is an interactive hand-drawing application built using MediaPipe and OpenCV.
-It allows users to draw on the screen in real time using their hand gestures captured by the webcam.
-The project demonstrates a simple integration of computer vision and gesture-based interaction concepts.
-
-👩‍💻 Developer: @S14E5iN
-
-📅 Created: 2025
-🧠 Tech Stack: Python, MediaPipe, OpenCV, NumPy
-🎯 Goal: Bridging the gap between human gestures and digital interaction
