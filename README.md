@@ -60,7 +60,7 @@ Aşağıdaki görüntüler uygulamanın çalışma anından alınmıştır:
 ---
 
 ## 🖥️ Kurulum ve Çalıştırma
-```bash
+bash
 # Gerekli kütüphaneleri yükle
 pip install mediapipe opencv-python numpy
 
